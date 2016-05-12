@@ -12,6 +12,8 @@ Initialization Options
 - @property {EqualHeightEventCallback|null} options.willSetHeight Fires before the elements will have their height set. Use event.preventDefault() to cancel the set height and perform css('height', '') instead.
 - @property {EqualHeightEventCallback|null} options.didSetHeight Fires after the elements did have their height set.
 
+CSS:
+
 ```css
 .columns {
   background: pink;
@@ -20,6 +22,8 @@ Initialization Options
   width:30%;
 }
 ```
+
+HTML:
 
 ```html
 <div class="columns column-1">
@@ -32,6 +36,8 @@ Initialization Options
 	Integer id pulvinar arcu. Donec suscipit urna a lacus egestas efficitur sit amet ut tellus. Pellentesque rutrum quam id congue pellentesque. Aenean aliquam lectus vel dictum faucibus. Nunc tristique tincidunt orci sit amet euismod. Etiam blandit ex sit amet rutrum finibus. Duis id vehicula eros, eget pharetra tellus.
 </div>
 ```
+
+JS:
 
 ```js
 $('.columns').equalHeight({
