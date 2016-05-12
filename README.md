@@ -12,6 +12,14 @@ Initialization Options
 - @property {EqualHeightEventCallback|null} options.willSetHeight Fires before the elements will have their height set. Use event.preventDefault() to cancel the set height and perform css('height', '') instead.
 - @property {EqualHeightEventCallback|null} options.didSetHeight Fires after the elements did have their height set.
 
+```css
+.columns {
+  background: pink;
+  float: left;
+  margin: 0 1.5%;
+  width:30%;
+}
+```
 
 ```html
 <div class="columns column-1">
