@@ -1,0 +1,19 @@
+{
+  "name": "jquery.equalheight",
+  "version": "1.2.1",
+  "description": "EqualHeight plugin is used to set the height of a collection of elements to the height of to the tallest element in the collection. By default this plugin sets height once during initialization, but you can also set it up to resize when the window is resized.",
+  "main": "jquery.equalHeight.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mindgruve/jquery.equalHeight.git"
+  },
+  "author": "Abishai Gray <agray@abishaigray.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mindgruve/jquery.equalHeight/issues"
+  },
+  "homepage": "https://github.com/mindgruve/jquery.equalHeight#readme"
+}
